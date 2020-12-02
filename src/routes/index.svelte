@@ -13,6 +13,15 @@
 </style>
 
 <svelte:head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Toxic Metal Detox Clinic, Melbourne" />
+  <meta name="author" content="Janine Brundle" />
+  <meta
+    name="keywords"
+    content="Janine Brundle, Toxic Metal Detox Clinic, Melbourne, Bentleigh, detoxifying toxic metals, detox, heavy metals, oligoscan, heavy metal analysis,  spectrophotometry, heavy metal detoxing" />
+  <meta name="robots" content="index, follow" />
   <title>Toxic Metal Detox Clinic, Melbourne</title>
 </svelte:head>
 <Nav />
