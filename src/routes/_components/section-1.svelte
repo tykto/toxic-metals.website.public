@@ -2,6 +2,37 @@
 </script>
 
 <style>
+  .content-section-1 {
+    background-color: #4a4745;
+  }
+
+  .content-section-1 .image {
+    background: url(/images/happy-woman.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  @media (max-width: 768px) {
+    .content-section-1 .image {
+      min-height: 400px;
+    }
+  }
+
+  .content-section-1 .panel {
+    background: url(/images/logo-watermark.png) no-repeat right bottom;
+    background-color: #ffffff;
+    border-left: 10px solid #4298b5;
+    border-right: 0 solid transparent;
+    border-top: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 15px;
+    color: #000000;
+    margin: 0;
+    min-height: 600px;
+    display: table;
+  }
 </style>
 
 <div class="content-section-1">
