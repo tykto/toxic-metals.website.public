@@ -21,6 +21,13 @@ jobs:
 
       - name: Install Dependencies
         run: yarn
-        
-      - name: Install Dependencies
+
+      - name: Sapper export
         run: yarn export
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@master
+        with:
+          publish_dir: __sapper__/export
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
