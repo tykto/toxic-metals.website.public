@@ -2,23 +2,17 @@
 </script>
 
 <style>
-  .content-section-1 {
+  .section {
     background-color: #4a4745;
   }
 
-  .content-section-1 .image {
+  .image {
     background: url(/images/happy-woman.jpg) no-repeat center center;
     background-size: cover;
     min-height: 600px;
   }
 
-  @media (max-width: 768px) {
-    .content-section-1 .image {
-      min-height: 400px;
-    }
-  }
-
-  .content-section-1 .panel {
+  .panel {
     background: url(/images/logo-watermark.png) no-repeat right bottom;
     background-color: #ffffff;
     border-left: 10px solid #4298b5;
@@ -33,9 +27,31 @@
     min-height: 600px;
     display: table;
   }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .panel {
+      min-height: 400px;
+    }
+    .image {
+      min-height: 400px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .panel {
+      border-right: 0 solid transparent;
+      border-left: 0 solid transparent;
+      border-top: 10px solid #47bcc3;
+      border-bottom: 0 solid transparent;
+    }
+  }
 </style>
 
-<div class="content-section-1">
+<div class="section">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="col-sm-6">
