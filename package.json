@@ -6,7 +6,7 @@
   "scripts": {
     "start": "sapper dev",
     "ci:build": "run-s _svelte-check _sapper:export _copy:cname",
-    "_copy:cname": "shx cp CNAME __sapper__/export",
+    "_copy:cname": "shx cp .CNAME __sapper__/export/CNAME",
     "_sapper:export": "sapper export --legacy",
     "_svelte-check": "svelte-check --ignore src/node_modules/@sapper"
   },
