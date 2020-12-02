@@ -103,23 +103,3 @@ ul {
   display: table-cell;
   vertical-align: middle;
 }
-
-footer {
-  padding: 20px 0;
-  background: #ada190;
-}
-
-footer p {
-  font-size: 12px;
-}
-
-footer a {
-  color: #742c50;
-  font-weight: bold;
-}
-
-footer a:hover,
-footer a:focus {
-  text-decoration: none;
-  color: #ffffff;
-}
