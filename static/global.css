@@ -104,61 +104,6 @@ ul {
   vertical-align: middle;
 }
 
-.intro-header {
-  padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
-  background: url(./images/black-brick-wall-2.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .intro-header {
-    padding-top: 230px;
-  }
-}
-
-@media (min-width: 992px) {
-  .intro-header {
-    padding-top: 200px;
-  }
-}
-
-.intro-header .tag-1,
-.intro-header .tag-2 {
-  display: inline;
-}
-
-.intro-header .tag-1 {
-  color: #ada190;
-  font-size: 50px;
-}
-
-.intro-header .tag-2 {
-  font-weight: normal;
-  color: #4298b5;
-  font-size: 50px;
-}
-
-.intro-header img {
-  padding: 5% 0;
-  margin: 0 auto;
-}
-
-.intro-header .video {
-  max-width: 400px;
-  padding-top: 5%;
-  margin: 0 auto;
-}
-
-.intro-header .clinic-tag {
-  padding-top: 40px;
-}
-
-.intro-header .clinic-tag p {
-  font-size: 35px;
-  color: #ffffff;
-}
-
 .content-section-2 {
   background-color: #4a4745;
 }

@@ -6,7 +6,7 @@
   import Section4 from './_components/section-4.svelte';
   import Section5 from './_components/section-5.svelte';
   import Footer from './_components/footer.svelte';
-  import Header from './_components/header.svelte';
+  import Intro from './_components/intro.svelte';
 </script>
 
 <style>
@@ -22,7 +22,7 @@
   <title>Toxic Metal Detox Clinic, Melbourne</title>
 </svelte:head>
 <Nav />
-<Header />
+<Intro />
 <Section1 />
 <Section2 />
 <Section3 />
