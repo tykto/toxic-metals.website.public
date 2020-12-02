@@ -7,17 +7,17 @@
     background: #ada190;
   }
 
-  footer p {
+  p {
     font-size: 12px;
   }
 
-  footer a {
+  a {
     color: #742c50;
     font-weight: bold;
   }
 
-  footer a:hover,
-  footer a:focus {
+  a:hover,
+  a:focus {
     text-decoration: none;
     color: #ffffff;
   }
