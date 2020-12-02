@@ -4,7 +4,7 @@
 <style>
 </style>
 
-<div class="content-section-5">
+<div class="content-section-4">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="col-sm-6 col-sm-push-6">

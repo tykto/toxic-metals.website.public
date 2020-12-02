@@ -4,7 +4,7 @@
 <style>
 </style>
 
-<div class="content-section-6">
+<div class="content-section-5">
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-6 ">
