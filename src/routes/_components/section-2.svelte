@@ -2,9 +2,55 @@
 </script>
 
 <style>
+  .section {
+    background-color: #4a4745;
+  }
+
+  .image {
+    background: url(/images/couple.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  .panel {
+    background-color: #a9e5e5;
+    border-right: 10px solid #ada190;
+    border-left: 0 solid transparent;
+    border-top: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 15px;
+    color: #000000;
+    margin: 0;
+    min-height: 600px;
+    display: table;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .panel {
+      border-right: 0 solid transparent;
+      border-left: 0 solid transparent;
+      border-top: 10px solid #ada190;
+      border-bottom: 0 solid transparent;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .panel {
+      min-height: 400px;
+    }
+    .image {
+      min-height: 400px;
+    }
+  }
 </style>
 
-<div class="content-section-2">
+<div class="section">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="col-sm-6 col-sm-push-6">
