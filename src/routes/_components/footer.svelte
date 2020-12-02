@@ -2,6 +2,25 @@
 </script>
 
 <style>
+  footer {
+    padding: 20px 0;
+    background: #ada190;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  a {
+    color: #742c50;
+    font-weight: bold;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: #ffffff;
+  }
 </style>
 
 <footer>
