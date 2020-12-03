@@ -1,6 +1,3 @@
-<script type="ts">
-</script>
-
 <style>
   footer {
     padding: 20px 0;
