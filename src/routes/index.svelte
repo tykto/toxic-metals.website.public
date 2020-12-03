@@ -1,12 +1,12 @@
 <script type="ts">
-  import Nav from './_components/nav.svelte';
-  import Section1 from './_components/section-1.svelte';
-  import Section2 from './_components/section-2.svelte';
-  import Section3 from './_components/section-3.svelte';
-  import Section4 from './_components/section-4.svelte';
-  import Section5 from './_components/section-5.svelte';
+  import Nav from './_components/nav/index.svelte';
+  import Section1 from './_components/section-1/index.svelte';
+  import Section2 from './_components/section-2/index.svelte';
+  import Section3 from './_components/section-3/index.svelte';
+  import Section4 from './_components/section-4/index.svelte';
+  import Section5 from './_components/section-5/index.svelte';
   import Footer from './_components/footer.svelte';
-  import Intro from './_components/intro.svelte';
+  import Intro from './_components/intro/index.svelte';
 </script>
 
 <style>

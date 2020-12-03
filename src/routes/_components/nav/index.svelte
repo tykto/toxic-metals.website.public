@@ -1,4 +1,6 @@
-<script>
+<script type="ts">
+  import headerUrl from './header.jpg';
+  import logoUrl from './logo.jpg';
 </script>
 
 <style>
@@ -9,14 +11,14 @@
   }
 
   .navbar-brand {
-    background: url(/images/logo.jpg) no-repeat top left;
+    background: var(--logo-url) no-repeat top left;
     height: 120px;
     width: 120px;
     margin-left: 0;
   }
 
   .title {
-    background: url(/images/header.jpg) no-repeat top left;
+    background: var(--header-url) no-repeat top left;
     height: 120px;
     margin: 0 0 0 120px;
   }
@@ -68,7 +70,7 @@
   }
 </style>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="--header-url:url({headerUrl});--logo-url:url({logoUrl})">
   <div class="container-fluid topnav">
     <div class="navbar-header">
       <!-- svelte-ignore a11y-invalid-attribute a11y-missing-content -->

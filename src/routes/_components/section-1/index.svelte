@@ -1,4 +1,6 @@
-<script>
+<script type="ts">
+  import backgroundUrl from './background.png';
+  import imageUrl from './image.jpg';
 </script>
 
 <style>
@@ -7,13 +9,13 @@
   }
 
   .image {
-    background: url(/images/happy-woman.jpg) no-repeat center center;
+    background: var(--image-url) no-repeat center center;
     background-size: cover;
     min-height: 600px;
   }
 
   .panel {
-    background: url(/images/logo-watermark.png) no-repeat right bottom;
+    background: var(--background-url) no-repeat right bottom;
     background-color: #ffffff;
     border-left: 10px solid #4298b5;
     border-right: 0 solid transparent;
@@ -51,7 +53,7 @@
   }
 </style>
 
-<div class="section">
+<div class="section" style="--image-url:url({imageUrl});--background-url:url({backgroundUrl})">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="col-sm-6">

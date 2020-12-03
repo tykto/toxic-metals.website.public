@@ -1,4 +1,5 @@
-<script>
+<script type="ts">
+  import imageUrl from './image.jpg';
 </script>
 
 <style>
@@ -7,7 +8,7 @@
   }
 
   .image {
-    background: url(/images/couple.jpg) no-repeat center center;
+    background: var(--image-url) no-repeat center center;
     background-size: cover;
     min-height: 600px;
   }
@@ -50,7 +51,7 @@
   }
 </style>
 
-<div class="section">
+<div class="section" style="--image-url:url({imageUrl})">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="col-sm-6 col-sm-push-6">
