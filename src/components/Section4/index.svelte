@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  .image {
+  .t-image {
     background: var(--image-url) no-repeat center center;
     background-size: cover;
     min-height: 600px;
@@ -25,7 +25,7 @@
   }
 
   @media (max-width: 768px) {
-    .image {
+    .t-image {
       min-height: 400px;
     }
     .panel {
@@ -47,7 +47,7 @@
   <div class="container-fluid">
     <div class="t-no-gutter row">
       <div class="col-sm-6 col-sm-push-6">
-        <div class="image" />
+        <div class="t-image" />
       </div>
       <div class="col-sm-6 col-sm-pull-6">
         <div class="clearfix" />

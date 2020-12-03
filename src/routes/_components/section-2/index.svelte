@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  .section {
+  .t-section {
     background-color: #4a4745;
   }
 
@@ -51,16 +51,16 @@
   }
 </style>
 
-<div class="section" style="--image-url:url({imageUrl})">
+<div class="t-section" style="--image-url:url({imageUrl})">
   <div class="container-fluid">
-    <div class="row no-gutter">
+    <div class="t-no-gutter row">
       <div class="col-sm-6 col-sm-push-6">
         <div class="image" />
       </div>
       <div class="col-sm-6 col-sm-pull-6">
         <div class="clearfix" />
         <div class="panel panel-default">
-          <div class="vcenter">
+          <div class="t-vcenter">
             <div class="panel-body center-block">
               <ul class="fa-ul">
                 <li>Did you know that minerals are essential to life and that toxic metals prevent their absorption in the body</li>

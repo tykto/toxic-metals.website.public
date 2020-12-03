@@ -8,7 +8,7 @@
     background-color: #4a4745;
   }
 
-  .image {
+  .t-image {
     background: var(--image-url) no-repeat center center;
     background-size: cover;
     min-height: 600px;
@@ -38,7 +38,7 @@
     .panel {
       min-height: 400px;
     }
-    .image {
+    .t-image {
       min-height: 400px;
     }
   }
@@ -57,7 +57,7 @@
   <div class="container-fluid">
     <div class="t-no-gutter row">
       <div class="col-sm-6">
-        <div class="image" />
+        <div class="t-image" />
       </div>
       <div class="col-sm-6">
         <div class="clearfix" />

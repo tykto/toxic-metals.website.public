@@ -1,5 +1,4 @@
 <script type="ts">
-  import backgroundUrl from './background.png';
   import imageUrl from './image.jpg';
 </script>
 
@@ -8,17 +7,16 @@
     background-color: #4a4745;
   }
 
-  .image {
+  .t-image {
     background: var(--image-url) no-repeat center center;
     background-size: cover;
     min-height: 600px;
   }
 
   .panel {
-    background: var(--background-url) no-repeat right bottom;
-    background-color: #ffffff;
-    border-left: 10px solid #4298b5;
-    border-right: 0 solid transparent;
+    background-color: #a9e5e5;
+    border-right: 10px solid #ada190;
+    border-left: 0 solid transparent;
     border-top: 0 solid transparent;
     border-bottom: 0 solid transparent;
     border-radius: 0px;
@@ -34,41 +32,44 @@
     padding-bottom: 10px;
   }
 
-  @media (max-width: 768px) {
-    .panel {
-      min-height: 400px;
-    }
-    .image {
-      min-height: 400px;
-    }
-  }
-
   @media (max-width: 767px) {
     .panel {
       border-right: 0 solid transparent;
       border-left: 0 solid transparent;
-      border-top: 10px solid #47bcc3;
+      border-top: 10px solid #ada190;
       border-bottom: 0 solid transparent;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .panel {
+      min-height: 400px;
+    }
+    .t-image {
+      min-height: 400px;
     }
   }
 </style>
 
-<div class="t-section" style="--image-url:url({imageUrl});--background-url:url({backgroundUrl})">
+<div class="t-section" style="--image-url:url({imageUrl})">
   <div class="container-fluid">
     <div class="t-no-gutter row">
-      <div class="col-sm-6">
-        <div class="image" />
+      <div class="col-sm-6 col-sm-push-6">
+        <div class="t-image" />
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-sm-pull-6">
         <div class="clearfix" />
         <div class="panel panel-default">
           <div class="t-vcenter">
             <div class="panel-body center-block">
               <ul class="fa-ul">
-                <li><i class="fa-li fa fa-check" />Life changing positive answers to your conditions</li>
-                <li><i class="fa-li fa fa-check" />Empowerment with knowledge and better health</li>
-                <li><i class="fa-li fa fa-check" />Treating the cause, not the symptoms</li>
-                <li><i class="fa-li fa fa-check" />Discover what is causing your unexplained health problems with an instant Heavy Metal Test</li>
+                <li>Did you know that minerals are essential to life and that toxic metals prevent their absorption in the body</li>
+                <li>
+                  Heavy metal toxicity and essential mineral deficiencies are a major cause of chronic illness for many Australians. In most cases this
+                  underlying cause goes undetected or even worse, untreated
+                </li>
+                <li>Restoring health & creating balance with gentle, safe, natural supportive and individualized heavy metal detoxing</li>
+                <li>Providing positive answers to chronic symptoms from a different perspective</li>
                 <ul />
               </ul>
             </div>

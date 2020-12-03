@@ -15,29 +15,29 @@
     min-height: 600px;
   }
 
-  .name {
+  .t-name {
     display: inline;
   }
 
-  .qualifications {
+  .t-qualifications {
     font-size: 16px;
     display: inline;
     line-height: 1.8;
   }
 
-  .titles {
+  .t-titles {
     margin-top: 0;
   }
 
-  .clinic-info p {
+  .t-info p {
     font-size: 18px;
   }
 
-  .professional-logos img {
+  .t-logos img {
     display: inline;
   }
 
-  .map {
+  .t-map {
     padding-bottom: 20px;
   }
 
@@ -45,16 +45,16 @@
     .t-section {
       min-height: 450px;
     }
-    .qualifications {
+    .t-qualifications {
       font-size: 10px;
     }
-    .clinic-info p {
+    .t-info p {
       font-size: 12px;
     }
   }
 
   @media (min-width: 768px) {
-    .name {
+    .t-name {
       display: inline;
       line-height: 1.8;
     }
@@ -72,11 +72,11 @@
       <div class="col-sm-6 col-md-6 ">
         <div>
           <img class="img-responsive" src={janineUrl} alt="janine" />
-          <h3 class="name">Janine Brundle</h3>
-          <p class="qualifications">PD Hom(UK) NA MAROH MAHA</p>
-          <h4 class="titles">Specialist Clinician, Founder and CEO</h4>
+          <h3 class="t-name">Janine Brundle</h3>
+          <p class="t-qualifications">PD Hom(UK) NA MAROH MAHA</p>
+          <h4 class="t-titles">Specialist Clinician, Founder and CEO</h4>
         </div>
-        <div class="clinic-info">
+        <div class="t-info">
           <h3>Toxic Metal Detox Clinic, Melbourne</h3>
           <p>Clinic Room:</p>
           <p>Unit 1, 25 Progress Street, Mornington Vic 3931</p>
@@ -84,7 +84,7 @@
           <p class="phone-number">M: 0419 836370</p>
           <p>E: <a target="_blank" href="mailto:janine.brundle@bigpond.com?subject=web%20enquiry">janine@toxicmetals.com.au</a></p>
         </div>
-        <div class="professional-logos">
+        <div class="t-logos">
           <img class="img-responsive" src={minndUrl} alt="minnd" />
           <img class="img-responsive" src={iictUrl} alt="iict" />
           <img class="img-responsive" src={homeopathyUrl} alt="homeopathy" />
@@ -92,7 +92,7 @@
             <img class="img-responsive" src={linkedinUrl} alt="linkedin" /></a>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6 map">
+      <div class="t-map col-sm-6 col-md-6">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe
             title=""

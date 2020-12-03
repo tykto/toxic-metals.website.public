@@ -45,14 +45,14 @@
 
 <div style="--image-url:url({imageUrl})">
   <div class="container-fluid">
-    <div class="row no-gutter">
+    <div class="t-no-gutter row">
       <div class="col-sm-6">
         <div class="image" />
       </div>
       <div class="col-sm-6">
         <div class="clearfix" />
         <div class="panel panel-default">
-          <div class="vcenter">
+          <div class="t-vcenter">
             <div class="panel-body">
               <p>
                 Everybody has heavy toxic metals in their body, they are in our daily environment and over time they can accumulate in the body causing serious
