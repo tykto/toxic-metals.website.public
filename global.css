@@ -89,12 +89,12 @@ ul {
   list-style: square outside none;
 }
 
-.no-gutter > [class*='col-'] {
+.t-no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-.vcenter {
+.t-vcenter {
   display: table-cell;
   vertical-align: middle;
 }
