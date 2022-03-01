@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="section font-cg1 font-bold bg-white bg-watermark bg-no-repeat bg-center">
   <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
     <div class="md:w-3/4 md:mx-auto p-3 md:p-5 lg:py-10">

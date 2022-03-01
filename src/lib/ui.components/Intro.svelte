@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="intro h-screen bg-wall font-cg1 bg-no-repeat bg-center bg-cover pt-56 md:pt-40 lg:pt-52">
   <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2">

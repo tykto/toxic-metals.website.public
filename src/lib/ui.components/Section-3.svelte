@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="section font-cg1 bg-white">
   <div class="grid grid-cols-1 lg:grid-cols-2">
     <div>

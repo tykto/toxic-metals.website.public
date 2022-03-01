@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <nav class="fixed flex flex-col md:flex-row md:items-center lg:h-36 w-full font-cg1 bg-white border-b-10 border-napa z-10">
   <!-- svelte-ignore a11y-invalid-attribute a11y-missing-content -->
   <div class="flex">
