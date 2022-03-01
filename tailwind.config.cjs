@@ -73,7 +73,7 @@ const config = {
         logo: "url('/images/logo-1.png')",
         logosmall: "url('/images/logo-1-small.png')",
         title: "url('/images/header.jpg')",
-        wall: "url('./images/black-brick-wall-2.jpg')",
+        wall: "url('/images/black-brick-wall-2.jpg')",
         watermark: "url('/images/watermark.png')",
       },
       borderWidth: {
