@@ -1,103 +1,51 @@
 <script>
 </script>
 
-<style>
-  .section {
-    background: url(/images/logo-watermark.png) no-repeat center center;
-    background-color: #ffffff;
-    padding-top: 20px;
-    min-height: 600px;
-  }
-
-  .name {
-    display: inline;
-  }
-
-  .qualifications {
-    font-size: 16px;
-    display: inline;
-    line-height: 1.8;
-  }
-
-  .titles {
-    margin-top: 0;
-  }
-
-  .clinic-info p {
-    font-size: 18px;
-  }
-
-  .professional-logos img {
-    display: inline;
-  }
-
-  .map {
-    padding-bottom: 20px;
-  }
-
-  @media (max-width: 768px) {
-    .section {
-      min-height: 450px;
-    }
-    .qualifications {
-      font-size: 10px;
-    }
-    .clinic-info p {
-      font-size: 12px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .name {
-      display: inline;
-      line-height: 1.8;
-    }
-    .phone-number {
-      display: inline;
-      line-height: 1.8;
-      padding-right: 10px;
-    }
-  }
-</style>
-
-<div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-6 ">
-        <div>
-          <img class="img-responsive" src="images/janine.jpg" alt="janine" />
-          <h3 class="name">Janine Brundle</h3>
-          <p class="qualifications">PD Hom(UK) NA MAROH MAHA</p>
-          <h4 class="titles">Specialist Clinician, Founder and CEO</h4>
+<div class="section font-cg1 font-bold bg-white bg-watermark bg-no-repeat bg-center">
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
+    <div class="md:w-3/4 md:mx-auto p-3 md:p-5 lg:py-10">
+      <div class="mb-4">
+        <img class="mb-2" src="images/janine.jpg" alt="janine" />
+        <div class="mb-2">
+          <h3 class="inline text-lg md:text-xl lg:text-2xl">Janine Brundle</h3>
+          <span class="inline text-xs md:text-sm lg:text-base">PD Hom(UK) NA MAROH MAHA</span>
         </div>
-        <div class="clinic-info">
-          <h3>Toxic Metal Detox Clinic, Melbourne</h3>
-          <p>Clinic Room:</p>
-          <p>Unit 1, 25 Progress Street, Mornington Vic 3931</p>
-          <p class="phone-number">P: 9448 2334</p>
-          <p class="phone-number">M: 0419 836370</p>
-          <p>E: <a target="_blank" href="mailto:janine.brundle@bigpond.com?subject=web%20enquiry">janine@toxicmetals.com.au</a></p>
-        </div>
-        <div class="professional-logos">
-          <img class="img-responsive" src="images/minnd.png" alt="minnd" />
-          <img class="img-responsive" src="images/iict.png" alt="iict" />
-          <img class="img-responsive" src="images/homeopathy.jpg" alt="homeopathy" />
-          <a target="_blank" href="https://au.linkedin.com/in/janine-brundle-p-d-hom-uk-na-maroh-maha-31896144">
-            <img class="img-responsive" src="images/linkedin.png" alt="linkedin" /></a>
-        </div>
+        <h4 class="text-base md:text-lg lg:text-xl">Specialist Clinician, Founder and CEO</h4>
       </div>
-      <div class="col-sm-6 col-md-6 map">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe
-            title=""
-            class="embed-responsive-item"
-            height="258"
-            name="Toxic Metal Detox Clinic, Melbourne"
-            scrolling="yes"
-            src="https://maps.google.com/maps?hl=en&amp;q=1/25 Progress Street, Mornington, 3931&amp;ie=UTF8&amp;t=roadmap&amp;z=17&amp;iwloc=B&amp;output=embed"
-            id="Toxic Metal Detox Clinic, Melbourne" />
+      <div>
+        <h3 class="text-lg md:text-xl lg:text-2xl mb-2">Toxic Metals Detox Clinic, Melbourne</h3>
+        <span class="block text-sm md:text-base lg:text-lg mb-2">Clinic Room:</span>
+        <span class="block text-sm md:text-base lg:text-lg mb-2">Unit 1, 25 Progress Street, Mornington Vic 3931</span>
+        <span class="text-sm md:text-base lg:text-lg mr-2"><i class="fas fa-phone text-boston mr-2" />9448 2334</span>
+        <span class="text-sm md:text-base lg:text-lg md:mr-2"><i class="fas fa-mobile text-boston mr-2" />0419 836370</span>
+        <span class="block md:inline lg:block text-sm md:text-base lg:text-lg">
+          <i class="fas fa-paper-plane text-boston mr-2" />
+          <a class="hover:text-heather" target="_blank" href="mailto:janine.brundle@bigpond.com?subject=web%20enquiry">janine@toxicmetals.com.au</a>
+        </span>
+      </div>
+      <div class="flex flex-wrap md:flex-nowrap lg:flex-wrap mt-2">
+        <div class="w-1/2 md:w-1/4 lg:w-1/2"><img src="images/minnd.png" alt="mindd" /></div>
+        <div class="w-1/2 md:w-5/12 lg:w-1/2"><img src="images/iict.png" alt="iict" /></div>
+        <div class="w-1/2 md:w-1/12 lg:w-1/2 pt-3 md:pt-0 lg:pt-3"><img class="md:mx-auto lg:m-0" src="images/homeopathy.jpg" alt="homeopathy" /></div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/2 pt-3 md:pt-0 lg:pt-3">
+          <a target="_blank" href="https://au.linkedin.com/in/janine-brundle-p-d-hom-uk-na-maroh-maha-31896144">
+            <img src="images/linkedin.png" alt="linkedin" />
+          </a>
         </div>
       </div>
     </div>
+    <div class="flex justify-center items-center h-120 lg:h-auto">
+      <iframe
+        title="Toxic Metals"
+        class="w-4/5 md:w-3/4 lg:w-4/5 h-5/6"
+        name="Toxic Metal Detox Clinic, Melbourne"
+        scrolling="yes"
+        src="https://maps.google.com/maps?hl=en&amp;q=Janine Brundle, PD Hom UK NA, Naturopath %7C Nutritionist, 1/25 Progress Street, Mornington, 3931&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=B&amp;output=embed"
+        id="Toxic Metal Detox Clinic, Melbourne"
+      />
+    </div>
   </div>
 </div>
+
+<style>
+</style>
