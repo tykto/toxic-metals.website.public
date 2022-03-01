@@ -17,7 +17,7 @@
     ".lintstagedrc.json": true,
     ".npmrc": true,
     ".prettierignore": true,
-    // ".prettierrc": true,
+    ".prettierrc": true,
     ".svelte-kit": true,
     "jest.config.cjs": true,
     "node_modules": true,
