@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "ci:build": "run-s check build copycname",
-    "copycname": "shx cp .CNAME .svelte-kit/output/CNAME",
+    "copycname": "shx cp .CNAME build/CNAME",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
