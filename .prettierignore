@@ -1,6 +1,3 @@
-static/cdn/**/*.js
-static/cdn/**/*.css
-
 .DS_Store
 node_modules
 /build

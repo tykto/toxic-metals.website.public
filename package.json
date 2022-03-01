@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "ci:build": "run-s check test build copycname",
-    "cdn": "node ./__scripts/cdn",
     "copycname": "shx cp .CNAME build/CNAME",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -14,7 +13,7 @@
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+    "lint": "prettier --ignore-path .gitignore --ignore-path .prettierignore --check --plugin-search-dir=. .",
     "format": "prettier --ignore-path .gitignore --ignore-path .prettierignore --write --plugin-search-dir=. .",
     "test": "jest"
   },

@@ -9,11 +9,9 @@ These are the steps used to setup the project.
 npm init svelte@next
 ```
 
-Replace `@sveltejs/adapter-auto` with `@sveltejs/adapter-node` in the [package.json](../package.json) file, and update each dependency to the latest.
+Replace `@sveltejs/adapter-auto` with `@sveltejs/adapter-static` in the [package.json](../package.json) file, and update each dependency to the latest.
 
-Configure [svelte.config.js](../svelte.config.js) to use `@sveltejs/adapter-node` and to alias the `$lib` and `$general` directories.
-
-Configure [tsconfig.json](../tsconfig.json) to alias the `$lib` and `$general` directories.
+Configure [svelte.config.js](../svelte.config.js) to use `@sveltejs/adapter-static`.
 
 ## GIT
 
@@ -36,7 +34,9 @@ npx husky set .husky/pre-commit "./node_modules/.bin/lint-staged"
 npx husky set .husky/prepare-commit-msg "exec < /dev/tty && ./node_modules/.bin/cz --hook || true"
 ```
 
-Configure [.czrc](../.czrc), [.lintstagedrc.json](../.lintstagedrc.json), [.prettierrc](../.prettierrc) files.
+Configure [.czrc](../.czrc), [.lintstagedrc.json](../.lintstagedrc.json), [.prettierignore](../.prettierignore), [.prettierrc](../.prettierrc) files.
+
+Update the `format` script in the [package.json](../package.json) file to ignore using **.prettierignore** as well as **.gitignore**.
 
 ## Testing
 
@@ -48,3 +48,7 @@ pnpm add @types/jest jest ts-jest --save-dev
 Configure the [jest.config.cjs](../jest.config.cjs) file.
 
 Add a `test` script to the [package.json](../package.json) file.
+
+## Tailwind
+
+TODO

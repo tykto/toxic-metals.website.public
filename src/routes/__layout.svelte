@@ -1,5 +1,6 @@
 <script>
   import '../app.css';
+  import '@fortawesome/fontawesome-free/js/all';
 </script>
 
 <svelte:head>
@@ -11,7 +12,6 @@
   />
   <meta name="robots" content="index, follow" />
   <title>Toxic Metal Detox Clinic, Melbourne</title>
-  <script defer src="/cdn/@fortawesome/fontawesome-free/js/all.min.js"></script>
 </svelte:head>
 
 <slot />
