@@ -58,6 +58,8 @@ npx tailwindcss init tailwind.config.cjs -p
 mv postcss.config.js postcss.config.cjs
 ```
 
+Follow the rest of the instructions at https://tailwindcss.com/docs/guides/sveltekit
+
 ## VS Code setup
 
 Configure the [.vscode/settings.json](../.vscode/settings.json) file.
