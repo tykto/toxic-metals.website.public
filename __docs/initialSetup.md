@@ -51,4 +51,13 @@ Add a `test` script to the [package.json](../package.json) file.
 
 ## Tailwind
 
-TODO
+```bash
+# Install Tailwind
+pnpm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init tailwind.config.cjs -p
+mv postcss.config.js postcss.config.cjs
+```
+
+## VS Code setup
+
+Configure the [.vscode/settings.json](../.vscode/settings.json) file.
