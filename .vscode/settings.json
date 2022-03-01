@@ -1,6 +1,0 @@
-{
-  "editor.tabSize": 2,
-  "editor.useTabStops": false,
-  // Hiding Unknown at-rule for tailwind https://github.com/tailwindlabs/tailwindcss/discussions/5258#discussioncomment-1979394
-  "css.lint.unknownAtRules": "ignore"
-}
