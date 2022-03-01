@@ -6,11 +6,12 @@
 @layer base {
   @font-face {
     font-family: 'Century Gothic V1';
-    src: url('/fonts/centurygothicv1.eot'); /* IE9*/
-    src: url('/fonts/centurygothicv1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
-         url('/fonts/centurygothicv1.woff2') format('woff2'), /* chrome、firefox */ 
-         url('/fonts/centurygothicv1.woff') format('woff'), /* chrome、firefox */ 
-         url('/fonts/centurygothicv1.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ 
-         url('/fonts/centurygothicv1.svg#Century Gothic V1') format('svg'); /* iOS 4.1- */
+    src: url('/cdn/fonts/centurygothicv1.eot'); /* IE9*/
+    /* prettier-ignore */
+    src: url('/cdn/fonts/centurygothicv1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+         url('/cdn/fonts/centurygothicv1.woff2') format('woff2'), /* chrome, firefox */ 
+         url('/cdn/fonts/centurygothicv1.woff') format('woff'), /* chrome, firefox */ 
+         url('/cdn/fonts/centurygothicv1.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ 
+         url('/cdn/fonts/centurygothicv1.svg#Century Gothic V1') format('svg'); /* iOS 4.1- */
   }
 }

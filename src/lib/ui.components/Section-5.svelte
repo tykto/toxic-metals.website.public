@@ -24,14 +24,14 @@
         </span>
       </div>
       <div class="flex flex-wrap md:flex-nowrap lg:flex-wrap mt-2">
-				<div class="w-1/2 md:w-1/4 lg:w-1/2"><img src="images/minnd.png" alt="mindd" /></div>
-				<div class="w-1/2 md:w-5/12 lg:w-1/2"><img src="images/iict.png" alt="iict" /></div>
-				<div class="w-1/2 md:w-1/12 lg:w-1/2 pt-3 md:pt-0 lg:pt-3"><img class="md:mx-auto lg:m-0" src="images/homeopathy.jpg" alt="homeopathy" /></div>
-				<div class="w-1/2 md:w-1/4 lg:w-1/2 pt-3 md:pt-0 lg:pt-3">
-					<a target="_blank" href="https://au.linkedin.com/in/janine-brundle-p-d-hom-uk-na-maroh-maha-31896144">
-          	<img src="images/linkedin.png" alt="linkedin" />
-        	</a>
-				</div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/2"><img src="images/minnd.png" alt="mindd" /></div>
+        <div class="w-1/2 md:w-5/12 lg:w-1/2"><img src="images/iict.png" alt="iict" /></div>
+        <div class="w-1/2 md:w-1/12 lg:w-1/2 pt-3 md:pt-0 lg:pt-3"><img class="md:mx-auto lg:m-0" src="images/homeopathy.jpg" alt="homeopathy" /></div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/2 pt-3 md:pt-0 lg:pt-3">
+          <a target="_blank" href="https://au.linkedin.com/in/janine-brundle-p-d-hom-uk-na-maroh-maha-31896144">
+            <img src="images/linkedin.png" alt="linkedin" />
+          </a>
+        </div>
       </div>
     </div>
     <div class="flex justify-center items-center h-120 lg:h-auto">
@@ -46,6 +46,3 @@
     </div>
   </div>
 </div>
-
-<style>
-</style>

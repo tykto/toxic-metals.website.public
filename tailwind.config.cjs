@@ -60,7 +60,7 @@ const config = {
       },
       height: {
         100: '26rem',
-				120: '30rem',
+        120: '30rem',
         144: '36rem',
       },
       fontFamily: {
