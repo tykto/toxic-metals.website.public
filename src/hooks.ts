@@ -1,7 +1,7 @@
 import type { Handle } from '@sveltejs/kit';
 import { minify, Options } from 'html-minifier';
 
-const minification_options: Options = {
+const options: Options = {
   collapseBooleanAttributes: true,
   collapseWhitespace: true,
   conservativeCollapse: true,
@@ -26,7 +26,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   if (response.headers.get('content-type') === 'text/html') {
     const body = await response.text();
-    const minifiedBody = minify(body, minification_options);
+    const minifiedBody = minify(body, options);
     return new Response(minifiedBody);
   } else {
     return response;
