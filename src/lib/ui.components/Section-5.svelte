@@ -12,7 +12,7 @@
       <div>
         <h3 class="text-lg md:text-xl lg:text-2xl mb-2">Toxic Metals Detox Clinic, Melbourne</h3>
         <span class="block text-sm md:text-base lg:text-lg mb-2">Clinic Room:</span>
-        <span class="block text-sm md:text-base lg:text-lg mb-2">Unit 1, 25 Progress Street, Mornington Vic 3931</span>
+        <span class="block text-sm md:text-base lg:text-lg mb-2">Unit 5, 27 Progress Street, Mornington Vic 3931</span>
         <span class="text-sm md:text-base lg:text-lg mr-2"><i class="fas fa-phone text-boston mr-2" />9448 2334</span>
         <span class="text-sm md:text-base lg:text-lg md:mr-2"><i class="fas fa-mobile text-boston mr-2" />0419 836370</span>
         <span class="block md:inline lg:block text-sm md:text-base lg:text-lg">
