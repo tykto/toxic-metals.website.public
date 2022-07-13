@@ -1,6 +1,6 @@
-const config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
-
   theme: {
     extend: {
       colors: {
@@ -81,8 +81,5 @@ const config = {
       },
     },
   },
-
   plugins: [],
-};
-
-module.exports = config;
+}
