@@ -8,7 +8,7 @@ module.exports = {
   preset: 'ts-jest',
   passWithNoTests: true,
   moduleNameMapper: {
-    ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
+    ...pathsToModuleNameMapper(compilerOptions.paths??{}, { prefix: '<rootDir>/' }),
     // Workaround: https://stackoverflow.com/a/54117206
     '^lodash-es$': 'lodash',
   },

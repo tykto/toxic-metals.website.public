@@ -1,5 +1,6 @@
 import type { Handle } from '@sveltejs/kit';
-import { minify, Options } from 'html-minifier';
+import type { Options } from 'html-minifier';
+import { minify } from 'html-minifier';
 
 const options: Options = {
   collapseBooleanAttributes: true,
